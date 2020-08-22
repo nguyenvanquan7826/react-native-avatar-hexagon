@@ -1,12 +1,12 @@
 {
   "name": "react-native-avatar-hexagon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "not desription",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
-  "react-native": "src/index",
-  "source": "src/index",
+  "react-native": "index",
+  "source": "index",
   "files": [
     "src",
     "lib",
@@ -17,7 +17,8 @@
     "!lib/typescript/example",
     "!**/__tests__",
     "!**/__fixtures__",
-    "!**/__mocks__"
+    "!**/__mocks__",
+    "index.js"
   ],
   "scripts": {
     "test": "jest",
